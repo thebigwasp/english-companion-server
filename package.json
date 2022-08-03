@@ -1,0 +1,17 @@
+{
+  "name": "english-companion-server",
+  "version": "1.0.0",
+  "license": "GPL-2.0+",
+  "dependencies": {
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "test"
+  },
+  "main": "src/server.js",
+  "engines": {
+    "node": "18.7.0"
+  }
+}
